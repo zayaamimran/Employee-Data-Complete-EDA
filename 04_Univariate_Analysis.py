@@ -89,14 +89,3 @@ axes.set_title("Remote Work")
 axes.set_xlabel("Remote Work")
 axes.set_ylabel("Count")
 plt.show()
-
-#Analysis 
-"""
-1. Employee Age: The workforce is concentrated around age 30, with more than 400 employees recorded at this age. The most frequently represented age group is 30-35.
-2. Salary Distribution: The average employee salary is approximately $85,155.06. Most salaries appear concentrated within the $60,000-$100,000 range.
-3. Department Distribution: DevOps is the largest department, with 189 employees.
-4. Regional Distribution: California is the most represented region, with 187 employees.
-5. Employment Status: Pending is the most common employment status, accounting for 356 employees.
-6. Performance Distribution: Good is the most frequent performance category. The distribution should be examined further before concluding that overall employee performance is strong.
-7. Work Arrangement: The dataset contains 513 remote employees and 506 on-site employees, indicating an almost equal distribution between the two arrangements. One record remains unaccounted for in these counts.
-"""
