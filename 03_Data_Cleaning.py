@@ -24,4 +24,4 @@ print(df.dtypes)
 print(df.shape)
 
 #Saving 
-df.to_csv("Cleaned_Employee_Dataset.csv", index=False)
+df.to_csv("Cleaned_Employee_Dataset.csv", index=False, date_format='%m/%d/%Y')
