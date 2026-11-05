@@ -48,13 +48,3 @@ print((df['Status']=='Pending').sum())
 print((df['Status']=='Inactive').sum())
 print((df['Remote_Work']==False).sum())
 print((df['Remote_Work']==True).sum())
-
-#Questions/Answers 
-#How many employees are present? : 1020
-#How many features does the dataset contain? : 11
-#Which column has the highest number of unique values? Employee_ID, Phone
-#Which columns are numerical? : Age, Salary
-#Is Join_Date stored in the correct data type? : Yes (datetime64)
-#Is Phone a numerical measurement or an identifier? : Identifier
-#Is Department_Region one variable or potentially two combined variables? : Two
-#Are there any columns that should be treated as identifiers rather than analytical features? : Yes (Employee_ID, Phone, Email)
